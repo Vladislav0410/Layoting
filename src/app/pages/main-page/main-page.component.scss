@@ -1,0 +1,57 @@
+.mainPage {
+    height: 1080px;
+    width: 1920px;
+    background-color: rgb(62, 37, 85);
+}
+
+.mainPage__description {
+    margin-left: 405px;
+}
+
+.mainPage__title {
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.mainPage__text {
+    width: 570px;
+    height: 136px;
+    color: white;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.mainPage__ellipse6 {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    left: 177.62px;
+    top: 293.49px;
+    background: radial-gradient( 77.16% 77.16% at 19.75% 10.49%, #e1b6fa 0%, #b55dea 44.99%, #7111aa 100%);
+    box-shadow: 4px 4px 20px #5e148a;
+    filter: blur(20px);
+}
+
+.mainPage__ellipse7 {
+    position: absolute;
+    width: 104.35px;
+    height: 104.35px;
+    left: 231.2px;
+    top: 731.27px;
+    background: radial-gradient( 77.16% 77.16% at 19.75% 10.49%, #aa35ef 0%, #f2dcff 0.01%, #ad64d9 44.99%, #7111aa 100%);
+    box-shadow: 4px 10px 20px #5e148a;
+    filter: blur(30px);
+}
+
+.mainPage__ellipse8 {
+    position: absolute;
+    width: 134.04px;
+    height: 134.04px;
+    left: 1706.39px;
+    top: 758.18px;
+    background: radial-gradient( 96.11% 96.11% at 0% -8.45%, #fbf5ff 0%, #ffffff 0.01%, #c082e4 44.99%, #510082 100%);
+    box-shadow: 4px 4px 20px #000000;
+    filter: blur(30px);
+}

@@ -1,0 +1,26 @@
+.header {
+    height: 190px;
+    display: flex;
+    margin: 0 405px;
+    color: white;
+}
+
+.header__logo {
+    font-weight: 700;
+    margin: auto 0;
+    width: 44px;
+    margin-right: 80px;
+}
+
+.header__submit {
+    margin: auto 0 auto auto;
+}
+
+.header__menu {
+    margin: auto 0;
+    display: flex;
+}
+
+.header__item {
+    margin-right: 40px;
+}
