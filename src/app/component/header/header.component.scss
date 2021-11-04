@@ -1,15 +1,17 @@
 .header {
-    height: 190px;
+    height: 17.6vh;
     display: flex;
-    margin: 0 405px;
+    padding: 0 21vw;
     color: white;
 }
 
 .header__logo {
     font-weight: 700;
     margin: auto 0;
-    width: 44px;
-    margin-right: 80px;
+    width: 2.3vw;
+    margin-right: 4.2vw;
+    font-size: 1.5em;
+    line-height: 0.8em;
 }
 
 .header__submit {
@@ -22,5 +24,6 @@
 }
 
 .header__item {
-    margin-right: 40px;
+    font-size: 1.125em;
+    margin-right: 2.1vw;
 }

@@ -1,0 +1,31 @@
+.signUp {
+    display: flex;
+    &__text {
+        color: white;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    &__button {
+        background-color: #a615fc;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    &__arrow {
+        height: 8.4px;
+        width: 2.8px;
+        margin: 5px auto 0;
+        &_up {
+            background: #fff;
+            width: 2.8px;
+            height: 4.6px;
+            transform: skew(40deg);
+        }
+        &_down {
+            background: #fff;
+            width: 2.8px;
+            height: 4.6px;
+            transform: skew(140deg);
+        }
+    }
+}

@@ -1,13 +1,15 @@
 .arrow {
-    background: #c4c4c4;
-}
-
-.arrow__top {
-    width: 28.76px;
-    height: 19.44px;
-}
-
-.arrow__bottom {
-    width: 28.76px;
-    height: 19.44px;
+    &__top {
+        background: #c4c4c4;
+        width: 28.76px;
+        height: 9.72px;
+        transform: skew(0, 20deg);
+    }
+    &__bottom {
+        margin-top: 3px;
+        background: #c4c4c4;
+        width: 28.76px;
+        height: 9.72px;
+        transform: skew(0, 160deg);
+    }
 }
