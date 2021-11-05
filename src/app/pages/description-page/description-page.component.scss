@@ -1,0 +1,20 @@
+.descriptionPage {
+    //width: 100vw;
+    height: 164.44vh;
+    background-color: #f1f1f1;
+    &__content {
+        padding: 9.26vh 0 0 26vw;
+    }
+    &__title {
+        margin-bottom: 2.31vh;
+        font-size: 3.75em;
+        font-weight: 900;
+    }
+    &__text {
+        text-align: start;
+        margin: 3.7vh 0 4.62vh 0;
+    }
+    &__card {
+        padding-bottom: 9.26vh;
+    }
+}

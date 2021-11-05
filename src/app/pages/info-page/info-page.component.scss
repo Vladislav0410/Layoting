@@ -1,0 +1,36 @@
+.infoPage {
+    //width: 100vw;
+    height: 68.52vh;
+    background-color: rgb(62, 37, 85);
+    &__line {
+        display: flex;
+        margin-bottom: 4.63vh;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    &__title {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        font-weight: 900;
+    }
+}
+
+.column {
+    margin-right: 9.375vw;
+    &__title {
+        height: 24px;
+        font-size: 24px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    &__dash {
+        height: 2px;
+        width: 40px;
+        background-color: white;
+        margin: auto 10px auto -50px;
+    }
+    &__text {
+        color: white;
+    }
+}

@@ -3,27 +3,22 @@
     display: flex;
     padding: 0 21vw;
     color: white;
-}
-
-.header__logo {
-    font-weight: 700;
-    margin: auto 0;
-    width: 2.3vw;
-    margin-right: 4.2vw;
-    font-size: 1.5em;
-    line-height: 0.8em;
-}
-
-.header__submit {
-    margin: auto 0 auto auto;
-}
-
-.header__menu {
-    margin: auto 0;
-    display: flex;
-}
-
-.header__item {
-    font-size: 1.125em;
-    margin-right: 2.1vw;
+    &__logo {
+        font-weight: 700;
+        margin: auto 0;
+        width: 2.3vw;
+        margin-right: 4.2vw;
+        font-size: 1.5em;
+    }
+    &__submit {
+        margin: auto 0 auto auto;
+    }
+    &__menu {
+        margin: auto 0;
+        display: flex;
+    }
+    &__item {
+        font-size: 1.125em;
+        margin-right: 2.1vw;
+    }
 }
