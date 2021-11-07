@@ -1,4 +1,42 @@
 .teacherPage {
+    background-color: #fafafa;
+    padding-left: 21.1vw;
     height: 82.69vh;
-    //width: 100vw;
+    &__title {
+        padding-top: 9.26vh;
+        padding-bottom: 2.32vh;
+    }
+    &__photo {
+        margin: auto 0;
+        img {
+            height: 46.3vh;
+        }
+    }
+    &__content {
+        display: flex;
+        height: 53.3vh;
+    }
+    &__description {
+        background-color: blue;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.description {
+    color: white;
+    &__content {
+        margin: 14.26vh 0 0 8.4vw;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 1.875rem;
+        margin-bottom: 20px;
+    }
+    &__item {
+        margin-bottom: 10px;
+    }
+    &__link {
+        margin: 15px 0 8vh;
+    }
 }
