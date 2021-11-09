@@ -2,14 +2,22 @@
     width: 47.9vw;
     background-color: #ffffff;
     box-shadow: 0px 10px 30px rgba(63, 0, 100, 0.25);
-    padding: 4.63vh 2.6vw 0 2.6vw;
+    padding: 3.43vh 2.6vw 0 2.6vw;
     &__title {
         font-size: 1.875em;
         font-weight: 600;
     }
-    &__titleInfo {
+    &__button {
+        height: 50px;
+        width: 210px;
+    }
+    &__info {
+        margin-top: 1.2vh;
         display: flex;
         justify-content: space-between;
+    }
+    &__block {
+        margin: 2.32vh 0;
     }
     &__headline {
         font-weight: 600;
@@ -19,11 +27,20 @@
     &__line {
         height: 1px;
         background-color: #dcdcdc;
-        margin: 4.63vh 0 2.32vh;
+        // margin: 4.63vh 0 2.32vh;
     }
     &__item {
         border-top: 1px #dcdcdc solid;
-        padding: 1.85vh 2.6vw;
+        padding: 1.85vh 2.6vw 0.925vh;
         margin: 0 -2.6vw;
+    }
+    &__text {
+        margin-bottom: 0.925vh;
+        &_fire {
+            color: blue;
+        }
+        &_disabled {
+            color: #939393;
+        }
     }
 }

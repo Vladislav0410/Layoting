@@ -1,18 +1,24 @@
 .infoPage {
     //width: 100vw;
-    height: 68.52vh;
     background-color: rgb(62, 37, 85);
-    &__line {
+    &__content {
         display: flex;
-        margin-bottom: 4.63vh;
         justify-content: center;
-        margin-left: 50px;
+        padding-left: 25px;
+        padding-bottom: 3.2vh;
+    }
+    &__block {
+        margin-left: 9.25vw;
     }
     &__title {
+        padding: 9.26vh 0 7.85vh;
         text-align: center;
         color: white;
         font-size: 60px;
         font-weight: 900;
+    }
+    &__column {
+        margin-bottom: 4.625vh;
     }
 }
 
