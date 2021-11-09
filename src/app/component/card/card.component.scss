@@ -1,7 +1,29 @@
 .card {
     width: 47.9vw;
-    height: 114.6vh;
     background-color: #ffffff;
     box-shadow: 0px 10px 30px rgba(63, 0, 100, 0.25);
     padding: 4.63vh 2.6vw 0 2.6vw;
+    &__title {
+        font-size: 1.875em;
+        font-weight: 600;
+    }
+    &__titleInfo {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__headline {
+        font-weight: 600;
+        font-size: 1.25em;
+        margin: 4.63vh 0 2.32vh;
+    }
+    &__line {
+        height: 1px;
+        background-color: #dcdcdc;
+        margin: 4.63vh 0 2.32vh;
+    }
+    &__item {
+        border-top: 1px #dcdcdc solid;
+        padding: 1.85vh 2.6vw;
+        margin: 0 -2.6vw;
+    }
 }
